@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.business-card {
+    display: flex;
+    height: 380px;
+}
+
+img {
+    border-right: 1px solid #FFFFFF;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 383px;
+}
+
+
+.name {
+    background-color: #192028;
+    height: 50%;
+    width: 100%;
+    border-radius: 0px 10px 0px 0px;
+    border-left: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.full-name {
+    margin-left: 19px;
+}
+
+
+.name h1 {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.name h2 {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.name p {
+    color: #6487A2;
+    font-family: Roboto;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+
+.fas {
+    color: #6487A1;
+    font-size: 22px;
+    margin: 16px 0px;
+}
+
+.info {
+    margin-left: 14px;
+    margin-bottom: 18px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+.contact-info {
+    background-color: #2B3944;
+    height: 50%;
+    width: 100%;
+    border-radius: 0px 0px 10px 0px;
+    border-left: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.contact-info p {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+hr {
+    margin: 5px 0px;
+    width: 325px;
+}
+
+
